@@ -22,14 +22,14 @@ header h1 {
   font-family: "DM Serif Display", serif;
   font-size:50px;
   text-decoration: none;
-  line-height: 0.5; 
+  line-height: 0.5;
 }
 
 header h2 {
   font-family: "Meie Script", cursive;
    font-size: 35px;
   margin-top: 1px;
-  line-height: 0; 
+  line-height: 0;
 }
 
 main {
@@ -74,8 +74,14 @@ article img {
   height: auto;
   margin-bottom: 10px;
   border-radius: 10px;
-  display: block; 
+  display: block;
   margin: 0 auto;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
+}
+
+article img:hover {
+  transform: scale(1.05); 
+  filter: brightness(110%); 
 }
 
 aside {
@@ -95,13 +101,13 @@ aside ul {
 
 aside li {
   margin-bottom: 10px;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 aside a {
   color: #504B38;
   text-decoration: none;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 aside a:hover {
@@ -115,6 +121,14 @@ footer {
   padding: 10px;
 }
 
-img:hover {
-  transform:scale(2)
+frame.img {
+  position:absolute;
+  transform-origin: 50%;
+  width: 100%;
+  transition: 2 ease;
+}
+
+frame:hover {
+  transform:scale(2);
+  filter:blur(2px);
 }
