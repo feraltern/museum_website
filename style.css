@@ -115,7 +115,6 @@ footer {
   padding: 10px;
 }
 
-  img:hover
-  {
-    transform:scale(2)
-  }
+img:hover {
+  transform:scale(2)
+}
