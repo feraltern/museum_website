@@ -5,4 +5,4 @@
 
 **en-us**: creation of a static website using the HTML and CSS markup languages for the first test of the web programming subject in the 1st semester of the computer science course, with a free theme. the fictitious site's main objective is to present the works of the louvre museum to interested visitors.
 
-![Image](https://github.com/user-attachments/assets/c9fe3228-4d4c-4eca-8d2c-b86aec192a7c)
+![Image](https://github.com/user-attachments/assets/d1df400b-00ed-46e3-a1dc-7c2862a13e7d)
